@@ -274,8 +274,10 @@ comment:
 # Available value:
 #     swiftype | google | local
 search:
-    use: google
-    swiftype_key:
+    # use: google
+    # swiftype_key:
+    path: search.xml
+    field: all
 
 # Analytics Systems
 # Available value:
