@@ -5,56 +5,29 @@ on:
     branches:
       - blog
 
-env:
-  POST_ASSET_IMAGE_CDN: true
-
 jobs:
-  build-and-deploy:
+  pages:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-
-      - name: Checkout theme repo
-        uses: actions/checkout@v2
-        with:
-          repository: viosey/hexo-theme-material
-          ref: master
-          path: themes/material
-
-      - name: Set up Node.js
+      - uses: actions/checkout@v2
+      - name: Use Node.js 15.x
         uses: actions/setup-node@v1
         with:
-          node-version: '15'
-
-      - name: Get yarn cache directory path
-        id: yarn-cache-dir-path
-        run: echo "::set-output name=dir::$(yarn cache dir)"
-
-      - name: Use yarn cache
+          node-version: '15.x'
+      - name: Cache NPM dependencies
         uses: actions/cache@v2
-        id: yarn-cache
         with:
-          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
-          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+          path: node_modules
+          key: ${{ runner.OS }}-npm-cache
           restore-keys: |
-            ${{ runner.os }}-yarn-
-
-      - name: Install dependencies
-        run: |
-          yarn install --prefer-offline --frozen-lockfile
-
-      - name: Set up environment
-        env:
-          DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
-        run: |
-          sudo timedatectl set-timezone "Asia/Shanghai"
-          mkdir -p ~/.ssh
-          echo "$DEPLOY_KEY" > ~/.ssh/id_rsa
-          chmod 600 ~/.ssh/id_rsa
-          ssh-keyscan github.com >> ~/.ssh/known_hosts
-
+            ${{ runner.OS }}-npm-cache
+      - name: Install Dependencies
+        run: npm install
+      - name: Build
+        run: npm run build
       - name: Deploy
-        run: |
-          npx hexo deploy --generate
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.DEPLOY_KEY }}
+          publish_dir: ./public
+          publish_branch: master  # deploying branch
