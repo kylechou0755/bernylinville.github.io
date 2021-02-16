@@ -103,4 +103,8 @@ theme: material
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: git@github.com:bernylinville/bernylinville.github.io.git
+  branch: master
+  name: bernylinville
+  email: bernylinville@devopsthink.org
