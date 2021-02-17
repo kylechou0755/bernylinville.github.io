@@ -98,13 +98,13 @@ card_elevation: 2
 # Copyright
 # Specify the date when the site was setup.
 #    For example, if you set it as 2015, then footer will show '© 2015 - 2017'
-copyright_since:
+copyright_since: 2021
 
 # Footer Text
 # You can specify the text you want to show in footer, HTML tag is supported.
 #   For example, you can setup ICP license number as:
 #       '<a href="http://www.miitbeian.gov.cn" rel="nofollow">某ICP备xxxxxxxx号-x</a>'
-footer_text:
+footer_text: '<a href="https://icp.gov.moe" target="_blank">萌ICP备 </a><a href="https://icp.gov.moe/?keyword=20210101" target="_blank"> 20210001号</a>'
 
 # Qrcode for redirect at other device
 #    use: choose which method to generate the qrcode for each posts.
