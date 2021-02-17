@@ -167,30 +167,30 @@ toc:
 
 # SNS Menu
 sns:
-    email: youremail@email.com
-    facebook: "https://www.facebook.com/facebook"
-    twitter: "https://twitter.com/twitter"
-    googleplus: "https://www.google.com/"
+    email: bernylinville@devopsthink.org
+    facebook:
+    twitter: "https://twitter.com/bernylinville"
+    googleplus:
     weibo:
     instagram:
     tumblr:
-    github:
+    github: "https://github.com/bernylinville"
     linkedin:
     zhihu:
     bilibili:
-    telegram:
+    telegram: "https://t.me/vahansarkis"
     v2ex:
     segmentfault:
 
 # SNS Share Switch
 sns_share:
     twitter: true
-    facebook: true
-    googleplus: true
-    weibo: true
+    facebook: false
+    googleplus: false
+    weibo: false
     linkedin: false
     qq: false
-    telegram: false
+    telegram: true
 
 # Sidebar Customize
 sidebar:
