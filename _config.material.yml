@@ -104,7 +104,7 @@ copyright_since: 2021
 # You can specify the text you want to show in footer, HTML tag is supported.
 #   For example, you can setup ICP license number as:
 #       '<a href="http://www.miitbeian.gov.cn" rel="nofollow">某ICP备xxxxxxxx号-x</a>'
-footer_text: '<a href="https://icp.gov.moe" target="_blank">萌ICP备 </a><a href="https://icp.gov.moe/?keyword=20210101" target="_blank"> 20210001号</a>'
+footer_text: '<a href="https://icp.gov.moe" target="_blank">萌ICP备 </a><a href="https://icp.gov.moe/?keyword=202101012021" target="_blank"> 20210001号</a>'
 
 # Qrcode for redirect at other device
 #    use: choose which method to generate the qrcode for each posts.
