@@ -33,6 +33,8 @@
 
 
 
+    <link rel="dns-prefetch" href="https://www.google-analytics.com"/>
+
 
 
     <link rel="dns-prefetch" href="https://fonts.googleapis.com"/>
@@ -233,6 +235,10 @@
 
     <!-- RSS -->
     
+        
+            <link rel=alternate type="application/atom+xml" href="https://blog.devopsthink.org/atom.xml">
+        
+    
 
     <!-- The Open Graph protocol -->
     <meta property="og:url" content="https://blog.devopsthink.org/">
@@ -283,6 +289,14 @@
     
 
     <!-- Analytics -->
+    
+        <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'G-C8EYXVC0FN', 'auto');ga('send', 'pageview');
+</script>
     
     
     
@@ -346,6 +360,20 @@
 
     <!-- Search -->
     
+    <!-- Google -->
+    <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable" method="post" action="">
+        <label id="search-label" class="mdl-button mdl-js-ripple-effect mdl-js-button mdl-button--fab mdl-color--accent mdl-shadow--4dp" for="search">
+            <i class="material-icons mdl-color-text--white" role="presentation">search</i>
+        </label>
+
+        <form autocomplete="off" id="search-form" method="get" action="//google.com/search" accept-charset="UTF-8" class="mdl-textfield__expandable-holder" target="_blank">
+            <input class="mdl-textfield__input search-input" type="search" name="q" id="search" placeholder="">
+            <label id="search-form-label" class="mdl-textfield__label" for="search"></label>
+
+            <input type="hidden" name="sitesearch" value="https://blog.devopsthink.org">
+        </form>
+    </div>
+
 
 
 
@@ -393,6 +421,12 @@
                 </a>
             
 
+            
+                <a class="index_share-link" href="https://blog.devopsthink.org/atom.xml">
+                    <li class="mdl-menu__item mdl-js-ripple-effect">
+                        文章 RSS
+                    </li>
+                </a>
             
 
             

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Berny&#39;s Blog</title>
+  <icon>https://blog.devopsthink.org/icon.png</icon>
+  
+  <link href="https://blog.devopsthink.org/atom.xml" rel="self"/>
+  
+  <link href="https://blog.devopsthink.org/"/>
+  <updated>2021-02-18T02:40:21.309Z</updated>
+  <id>https://blog.devopsthink.org/</id>
+  
+  <author>
+    <name>Berny Linville</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>NAS整理记录</title>
+    <link href="https://blog.devopsthink.org/2021/02/17/NAS%E6%95%B4%E7%90%86%E8%AE%B0%E5%BD%95/"/>
+    <id>https://blog.devopsthink.org/2021/02/17/NAS%E6%95%B4%E7%90%86%E8%AE%B0%E5%BD%95/</id>
+    <published>2021-02-17T05:42:54.000Z</published>
+    <updated>2021-02-18T02:40:21.309Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;由于2020 年贸易战的原因，担心 Google Drive 和 OneDrive 无法继续使用，又暂时没有能力肉翻，遂决定折腾在家部署 NAS。又本身就有淘汰的 CPU i7-4790 加上主板和内存，所以直接购入了机箱 &lt;a</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>新建博客记录</title>
+    <link href="https://blog.devopsthink.org/2021/02/17/%E6%96%B0%E5%BB%BA%E5%8D%9A%E5%AE%A2%E8%AE%B0%E5%BD%95/"/>
+    <id>https://blog.devopsthink.org/2021/02/17/%E6%96%B0%E5%BB%BA%E5%8D%9A%E5%AE%A2%E8%AE%B0%E5%BD%95/</id>
+    <published>2021-02-17T05:26:32.000Z</published>
+    <updated>2021-02-18T02:40:21.309Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;这次真的不再折腾了&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;博客完全托管在 GitHub 上 &lt;a</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
