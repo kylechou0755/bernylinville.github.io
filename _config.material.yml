@@ -18,7 +18,7 @@ head:
 
 # Jump Links Settings
 url:
-    rss:
+    rss: https://blog.devopsthink.org/atom.xml
     daily_pic: "#"
     logo: "#"
 
@@ -274,16 +274,16 @@ comment:
 # Available value:
 #     swiftype | google | local
 search:
-    # use: google
+    use: google
     # swiftype_key:
-    path: search.xml
-    field: all
+    # path: search.xml
+    # field: all
 
 # Analytics Systems
 # Available value:
 #     baidu | google | cnzz
 analytics:
-    google_site_id:
+    google_site_id: G-C8EYXVC0FN
     baidu_site_id:
     cnzz_site_id:
 
