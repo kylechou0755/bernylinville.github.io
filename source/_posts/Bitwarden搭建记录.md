@@ -2,6 +2,10 @@
 title: Bitwarden搭建记录
 date: 2021-02-19 14:39:32
 tags:
+  - Key
+  - Bitwarden
+categories: Key
+description: 密码管理切换到 Bitwarden 上，目前体验良好。
 ---
 
 密码管理方案从最早的浏览器管理 -> lastpass -> 1password -> keepass，本地保存和 syncthing 共享 keepass 数据。

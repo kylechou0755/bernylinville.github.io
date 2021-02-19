@@ -1,7 +1,9 @@
 ---
 title: NAS整理记录
 date: 2021-02-17 13:42:54
-tags:
+tags: NAS
+categories: NAS
+description: 过年期间 NAS 重新部署记录。
 ---
 
 由于2020 年贸易战的原因，担心 Google Drive 和 OneDrive 无法继续使用，又暂时没有能力肉翻，遂决定折腾在家部署 NAS。又本身就有淘汰的 CPU i7-4790 加上主板和内存，所以直接购入了机箱 [银欣 CS380](https://item.jd.com/100007972013.html) 和 5 块 [西部数据红盘](https://item.jd.com/694105.html#crumb-wrap)
